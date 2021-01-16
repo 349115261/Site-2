@@ -92,7 +92,7 @@
 }
 
 .u-section-5-2 .u-text-2 {
-  margin: 30px 56px 0;
+  margin: 0;
 }
 
 .u-section-5-2 .u-btn-1 {
@@ -282,10 +282,13 @@
   margin: 55px auto 60px -47px;
 }
 
-.u-section-1 .u-image-1 {
+.u-section-1 .u-layout-cell-1 {
   min-height: 540px;
+  transition-duration: 0.75s;
+}
+
+.u-section-1 .u-image-1 {
   background-image: url("images/fea07c98-3361-82db-401a-dc5b4d50450f.jpeg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -308,6 +311,7 @@
 }
 
 .u-section-1 .u-text-2 {
+  animation-duration: 1000ms;
   margin: 20px 2px 0 0;
 }
 
@@ -317,6 +321,7 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: normal;
+  animation-duration: 1000ms;
   margin: 20px auto 0 38px;
 }
 
@@ -331,8 +336,9 @@
     margin-left: 40px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 390px;
+    background-position: 50% 50%;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -367,7 +373,7 @@
     margin-left: 0;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 445px;
   }
 
@@ -398,7 +404,7 @@
     width: 440px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 449px;
   }
 
@@ -424,7 +430,7 @@
     width: 272px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-layout-cell-1 {
     min-height: 211px;
   }
 
@@ -461,6 +467,8 @@
   height: 300px;
   background-image: url("images/21-213224_unknown-person-icon-png-download.png");
   background-position: 50% 50%;
+  filter: brightness(0.85);
+  animation-duration: 1000ms;
   margin: 0 auto;
 }
 
